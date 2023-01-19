@@ -11,4 +11,4 @@ jobs:
       - uses: actions/checkout@1.0.0
       - uses: micnncim/action-lgtm-reaction@master
         env:
-          GITHUB_TOKEN: ${{ secrets.LGTM_SECRET_1 }}
+          GITHUB_TOKEN: ${{ secrets.LGTM_SECRET }}
